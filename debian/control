@@ -1,0 +1,28 @@
+Source: node-supports-color
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Mathias Behrle <mbehrle@debian.org>,
+           Utkarsh Gupta <guptautkarsh2102@gmail.com>
+Testsuite: autopkgtest-pkg-nodejs
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-nodejs,
+ node-has-flag <!nocheck>
+Standards-Version: 4.6.0
+Homepage: https://github.com/sindresorhus/supports-color
+Vcs-Git: https://salsa.debian.org/js-team/node-supports-color.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-supports-color
+Rules-Requires-Root: no
+
+Package: node-supports-color
+Architecture: all
+Depends:
+ ${misc:Depends},
+ node-has-flag
+Provides: ${nodejs:Provides}
+Description: Detect whether a terminal supports color in Node.js
+ supports-color is a Node.js module which provides an API to detect whether a
+ terminal supports color.
+ .
+ Node.js is an event-based server-side JavaScript engine.

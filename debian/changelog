@@ -1,0 +1,109 @@
+node-supports-color (8.1.1+~8.1.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * Fix debian/watch
+  * New upstream version 8.1.1+~8.1.1
+
+ -- Yadd <yadd@debian.org>  Sat, 13 Nov 2021 21:55:34 +0100
+
+node-supports-color (8.1.0+~7.2.0-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream version 8.1.0+~7.2.0
+
+ -- Xavier Guimard <yadd@debian.org>  Fri, 25 Dec 2020 20:34:51 +0100
+
+node-supports-color (8.0.0+~7.2.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Remove obsolete fields Name from debian/upstream/metadata.
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs
+  * Embed typescript definitions
+  * New upstream version 8.0.0+~7.2.0
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 06 Dec 2020 09:45:48 +0100
+
+node-supports-color (6.1.0-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Bump Standards-Version to 4.4.0 and debhelper to 12
+  * Switch install to pkg-js-tools
+  * Add myself as an uploader
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Sun, 11 Aug 2019 18:44:39 +0530
+
+node-supports-color (6.1.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream version 6.1.0
+  * Bump Standards-Version to 4.3.0
+  * Bump debhelper compatibility level to 11
+  * Switch test to pkg-js-tools
+  * Update d/copyright
+
+ -- Utkarsh Gupta <guptautkarsh2102@gmail.com>  Wed, 20 Mar 2019 02:00:33 +0530
+
+node-supports-color (4.4.0-2) unstable; urgency=medium
+
+  * Team upload
+  * Reupload to unstable
+
+ -- Pirate Praveen <praveen@debian.org>  Sun, 08 Oct 2017 12:49:52 +0530
+
+node-supports-color (4.4.0-1) experimental; urgency=medium
+
+  * Team upload
+  * New upstream release
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 08 Sep 2017 19:36:44 +0530
+
+node-supports-color (3.2.3-1) unstable; urgency=medium
+
+  * Merging upstream version 3.2.3.
+
+ -- Mathias Behrle <mbehrle@debian.org>  Tue, 24 Jan 2017 16:34:53 +0100
+
+node-supports-color (3.1.2-2) unstable; urgency=medium
+
+  * Adding missing Depends: node-has-flag.
+
+ -- Mathias Behrle <mbehrle@debian.org>  Mon, 25 Jul 2016 14:30:07 +0200
+
+node-supports-color (3.1.2-1) unstable; urgency=medium
+
+  [ Bas Couwenberg ]
+  * Set the date embedded in man pages to the changelog date for
+    reproducible builds.
+  * Remove myself from Uploaders.
+
+  [ Mathias Behrle ]
+  * Imported Upstream version 3.1.2
+  * Updating debian packaging for new upstream version.
+  * Removing XS-Testsuite, no more needed.
+  * Changing VCS URIs to use https.
+  * Updating to Standards-Version 3.8, no changes needed.
+  * Removing unused Build-Depends.
+  * Adding myself to Uploaders.
+  * Adding myself to debian copyright.
+  * Running wrap-and-sort -sta.
+  * (Re-)Uploading to unstable (Closes: #753269).
+
+ -- Mathias Behrle <mbehrle@debian.org>  Mon, 18 Jul 2016 14:23:22 +0200
+
+node-supports-color (1.3.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #753269)
+
+ -- Bas Couwenberg <sebastic@debian.org>  Fri, 27 Mar 2015 15:21:17 +0100

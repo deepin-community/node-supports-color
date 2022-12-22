@@ -1,0 +1,11 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-supports-color-$1/ \
+https://github.com/sindresorhus/supports-color/tags \
+.*?(\d[\d\.]*)@ARCHIVE_EXT@ group
+
+# It is not recommended use npmregistry. Please investigate more.
+# Take a look at https://wiki.debian.org/debian/watch/
+opts="searchmode=plain,component=types-supports-color,ctype=nodejs,pgpmode=none,filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-types-supports-color-$1/" \
+ https://registry.npmjs.org/@types/supports-color https://registry.npmjs.org/@types/supports-color/-/supports-color-([\d\.]+)@ARCHIVE_EXT@ group
